@@ -6,11 +6,6 @@ import { ThemeProvider } from "@/components/theme-provider"
 
 const inter = Inter({ subsets: ["latin"] })
 
-export const metadata: Metadata = {
-  title: "PollCraft - Create and Share Polls",
-  description: "Create engaging polls, collect votes, and analyze results with beautiful charts",
-}
-
 export default function RootLayout({
   children,
 }: { 
